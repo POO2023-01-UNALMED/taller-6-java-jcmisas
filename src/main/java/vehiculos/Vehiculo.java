@@ -9,10 +9,9 @@ public class Vehiculo {
         velocidadMaxima=vmax;
         this.nombre=nombre;
         this.precio=precio;
+        this.peso=peso;
         this.traccion=traccion;
         this.fabricante=fabricante;
-        CantidadVehiculos++;
-
     }
 
     public static String vehiculosPorTipo(){

@@ -27,7 +27,7 @@ public class Pais {
         Pais top=new Pais();
         for(Pais p: paises){
 
-            if(p.ventas>aux){top=p;} else{continue;}
+            if(p.ventas>aux){top=p;aux=p.ventas;} else{continue;}
         }
 
         return top;
